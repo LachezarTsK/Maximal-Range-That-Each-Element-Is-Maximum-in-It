@@ -28,7 +28,7 @@ function maximumLengthOfRanges(input: number[]): number[] {
 
 class Stack {
 
-    container = new Array();
+    container: number[] = new Array();
 
     push(value: number): void {
         this.container.push(value);
